@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_full_name"
+        android:inputType="textPersonName"
+        android:autofillHints="name"
+        android:textColor="@android:color/black"
+        android:minHeight="48dp"
+        android:paddingVertical="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_username"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:textColor="@android:color/black"
+        android:minHeight="48dp"
+        android:paddingVertical="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:textColor="@android:color/black"
+        android:minHeight="48dp"
+        android:paddingVertical="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_confirm_password"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:textColor="@android:color/black"
+        android:minHeight="48dp"
+        android:paddingVertical="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_register"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp" />
+</LinearLayout>
