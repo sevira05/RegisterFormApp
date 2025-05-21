@@ -19,57 +19,57 @@
     <EditText
         android:id="@+id/etFullName"
         android:hint="@string/hint_full_name"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp"
         android:layout_marginBottom="12dp"
-        android:background="@drawable/edittext_background" />
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/black"
+        android:textColorHint="#DDDDDD" />
 
     <!-- Username -->
     <EditText
         android:id="@+id/etUsername"
         android:hint="@string/hint_username"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp"
         android:layout_marginBottom="12dp"
-        android:background="@drawable/edittext_background" />
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/black"
+        android:textColorHint="#DDDDDD" />
 
     <!-- Password -->
     <EditText
         android:id="@+id/etPassword"
         android:hint="@string/hint_password"
         android:inputType="textPassword"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp"
         android:layout_marginBottom="12dp"
-        android:background="@drawable/edittext_background" />
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/black"
+        android:textColorHint="#DDDDDD" />
 
     <!-- Confirm Password -->
     <EditText
         android:id="@+id/etConfirmPassword"
         android:hint="Confirm Password"
         android:inputType="textPassword"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/darker_gray"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp"
         android:layout_marginBottom="24dp"
-        android:background="@drawable/edittext_background" />
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/black"
+        android:textColorHint="#DDDDDD" />
 
     <!-- Tombol Register -->
     <Button
         android:id="@+id/btnRegister"
         android:text="@string/btn_register"
-        android:textColor="@android:color/white"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp"

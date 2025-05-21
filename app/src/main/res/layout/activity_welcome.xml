@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/light_purple"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_android_black_24dp"
+        android:contentDescription="@string/register_illustration"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnToRegister"
+        style="@style/Widget.MaterialComponents.Button"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/btnToLogin"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_purple"
+        android:textColor="@color/purple"
+        android:background="@drawable/rounded_button_outline" />
+</LinearLayout>
